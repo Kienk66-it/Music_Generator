@@ -1,17 +1,13 @@
-Dưới đây là một mẫu README được viết một cách chuyên nghiệp, khoa học và hấp dẫn dành cho dự án của bạn. Tôi sẽ thiết kế nó sao cho rõ ràng, dễ đọc, và cung cấp đầy đủ thông tin cần thiết để người dùng hoặc nhà phát triển khác có thể hiểu và sử dụng dự án một cách dễ dàng. Tôi sẽ giả định dự án của bạn có tên là "Music Player Simulator" – bạn có thể thay đổi tên nếu muốn!
+# Music Generator
 
----
-
-# Music Player Simulator
-
-![Banner](https://via.placeholder.com/800x200.png?text=Music+Player+Simulator)  
+![Banner](BackGround/Giao_dien.png)  
 *Một trình giả lập âm nhạc đa năng cho Piano, Ukulele và Flute, được xây dựng bằng Python và Pygame.*
 
 ---
 
 ## Giới thiệu
 
-**Music Player Simulator** là một ứng dụng mô phỏng chơi nhạc độc đáo, cho phép người dùng chơi và sáng tạo âm nhạc với ba loại nhạc cụ: Piano, Ukulele và Flute. Dự án kết hợp giao diện đồ họa trực quan (Pygame) với xử lý âm thanh mạnh mẽ (Librosa, SoundDevice), mang đến trải nghiệm tương tác mượt mà và thú vị. Người dùng có thể nhập các tệp nốt nhạc, điều chỉnh tempo, xuất file WAV, và thậm chí chơi trực tiếp trên bàn phím ảo.
+**Music Generator** là một ứng dụng mô phỏng chơi nhạc độc đáo, cho phép người dùng chơi và sáng tạo âm nhạc với ba loại nhạc cụ: Piano, Ukulele và Flute. Dự án kết hợp giao diện đồ họa trực quan (Pygame) với xử lý âm thanh mạnh mẽ (Librosa, SoundDevice), mang đến trải nghiệm tương tác mượt mà và thú vị. Người dùng có thể nhập các tệp nốt nhạc, điều chỉnh tempo, xuất file WAV, và thậm chí chơi trực tiếp trên bàn phím ảo.
 
 Dự án được thiết kế với mục tiêu giáo dục và giải trí, phù hợp cho những người yêu âm nhạc, lập trình viên muốn khám phá xử lý âm thanh, hoặc bất kỳ ai tò mò về cách mô phỏng nhạc cụ hoạt động.
 
@@ -54,8 +50,8 @@ Dự án được thiết kế với mục tiêu giáo dục và giải trí, ph
 ### Hướng dẫn cài đặt
 1. **Sao chép dự án**:
    ```bash
-   git clone https://github.com/username/music-player-simulator.git
-   cd music-player-simulator
+   git clone https://github.com/Kienk66-it/Music_Generator.git
+   cd Music_Generator
    ```
 
 2. **Tạo môi trường ảo (khuyến nghị)**:
@@ -109,12 +105,13 @@ Dự án được thiết kế với mục tiêu giáo dục và giải trí, ph
 ## Cấu trúc thư mục
 
 ```
-music-player-simulator/
+Music_Generator/
 ├── BackGround/         # Hình ảnh nền
 │   ├── 1.jpg           # Flute
 │   ├── 2.jpg           # Start Menu
 │   ├── 3.jpg           # Ukulele
-│   └── 4.jpg           # Piano
+│   ├── 4.jpg           # Piano
+│   └── Giao_dien.png   # Hình ảnh giao diện chính
 ├── Tracks/             # Tệp âm thanh nhạc cụ
 │   ├── piano/          # Âm thanh piano (A0.wav, Bb0.wav, ...)
 │   ├── ukelele/        # Âm thanh ukulele (C.wav, D.wav, ...)
@@ -157,33 +154,45 @@ Chúng tôi hoan nghênh mọi đóng góp để cải thiện dự án! Để t
 4. Push lên nhánh: `git push origin feature/your-feature`.
 5. Tạo Pull Request.
 
-Vui lòng đọc [CONTRIBUTING.md](CONTRIBUTING.md) (nếu có) để biết thêm chi tiết.
-
 ---
 
 ## Tác giả
 
-- **Tên của bạn** - [Email của bạn] - [GitHub của bạn]
+- **Lê Trung Kiên** - [21021602@vnu.edu.vn] - [https://github.com/Kienk66-it]
 
-Dự án được phát triển với sự hỗ trợ từ Grok (xAI), đảm bảo mã nguồn sạch và hiệu quả.
+<!-- Dự án được phát triển với sự hỗ trợ từ Grok (xAI), đảm bảo mã nguồn sạch và hiệu quả. -->
 
 ---
 
-## Giấy phép
+## Lưu ý
 
-Dự án được cấp phép theo [MIT License](LICENSE). Bạn có thể tự do sử dụng, chỉnh sửa và phân phối.
+Dự án này được thực hiện cho mục đích học tập trong một môn học tại trường. Bạn có thể sử dụng mã nguồn để tham khảo, học hỏi – vui lòng không sử dụng cho mục đích thương mại.
 
 ---
 
 ## Lời cảm ơn
 
-Cảm ơn bạn đã quan tâm đến **Music Player Simulator**! Nếu bạn thích dự án này, hãy để lại một ⭐ trên GitHub và chia sẻ với bạn bè. Chúc bạn có những phút giây thư giãn với âm nhạc!
+Cảm ơn bạn đã quan tâm đến **Music Generator**! Nếu bạn thích dự án này, hãy để lại một ⭐ trên GitHub và chia sẻ với bạn bè. Chúc bạn có những phút giây thư giãn với âm nhạc!
 
 ---
 
-### Ghi chú
-- **Hình ảnh banner**: Tôi đã chèn một liên kết placeholder (`https://via.placeholder.com/...`). Bạn có thể thay bằng hình ảnh thực tế của dự án (đặt trong repo và cập nhật đường dẫn).
-- **Thông tin cá nhân**: Thay `[Tên của bạn]`, `[Email của bạn]`, `[GitHub của bạn]` bằng thông tin thực tế của bạn.
-- **Tùy chỉnh**: Nếu bạn muốn thêm mục (ví dụ: "Known Issues", "Future Plans") hoặc thay đổi phong cách, hãy cho tôi biết!
+## Vấn đề đã biết
 
-Hãy sao chép nội dung trên vào file `README.md` trong thư mục dự án của bạn. Nếu bạn cần chỉnh sửa thêm hoặc muốn tôi tối ưu hơn nữa, cứ nói nhé!
+- Âm thanh có thể bị trễ nhẹ trên một số hệ điều hành Linux (do xung đột giữa ALSA và PulseAudio).
+- Một số file nốt nhạc `.txt` nếu viết sai định dạng có thể gây lỗi chương trình – chưa có kiểm tra định dạng đầu vào.
+- Khi chạy trên màn hình độ phân giải thấp (< 1280x720), giao diện có thể hiển thị sai vị trí nút.
+- Tính năng xuất file WAV có thể không hoạt động nếu thiếu thư viện `scipy`.
+
+> Chúng tôi đang làm việc để khắc phục các vấn đề trên trong các bản cập nhật tiếp theo.
+
+---
+
+## Kế hoạch phát triển
+
+- [ ] Thêm chế độ trống (Drum Mode) với các âm thanh bộ gõ.
+- [ ] Cho phép người dùng ghi lại phần chơi nhạc trực tiếp và lưu thành file MIDI.
+- [ ] Cải thiện giao diện: responsive, hỗ trợ dark mode.
+- [ ] Thêm tính năng kiểm tra lỗi trong tệp nốt nhập vào.
+- [ ] Đưa ứng dụng lên nền web sử dụng Flask hoặc PyScript (nếu khả thi).
+
+> Nếu bạn có ý tưởng hay hoặc muốn đóng góp, đừng ngần ngại tạo một Issue hoặc Pull Request!
